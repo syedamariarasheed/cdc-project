@@ -1,7 +1,7 @@
 ## Overview
 This data project demonstrates a basic change data capture (CDC) flow using Apache Kafka, Debezium, and Apache Spark. The project captures data changes from a PostgreSQL database using Debezium, streams these events into Kafka topics, and then processes the events in real-time using Spark Streaming, ultimately writing the processed data as Parquet files to S3.
 
-![](../../../../var/folders/bm/s4nvvbh175v60prw8h0t1lxr0000gn/T/TemporaryItems/NSIRD_screencaptureui_Ahmu5e/Screenshot 2024-05-18 at 2.57.31 PM.png)
+![](img.png)
 
 ## Usage
 up docker-compose and docker-compose-spark containers
